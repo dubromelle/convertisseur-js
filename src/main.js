@@ -3,6 +3,7 @@ import './style.css'
 const celsiusInput = document.querySelector('#celsius');
 const resultDiv = document.querySelector('#result');
 
+//Fonction de conversion à tester
 window.convertir = () => {
     const c = parseFloat(celsiusInput.value);
     if (!isNaN(c)) {
